@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <center>
+        <h1> SHOPEE </h1>
+    </center>
+
+    <H2> beranda </H2>
+
+    {% for judul in title %}
+    <li>{{ judul }}</li>
+    {% endfor %}
+
+    {{ pemilik }}
+
+{% endblock %}
